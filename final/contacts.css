@@ -1,0 +1,169 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.navbar {
+  background-color: #5959b3;
+}
+
+.bgimg-1, .bgimg-2 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgimg-1 {
+  background-image: url("khans3.jpg");
+  min-height: 100%;
+}
+.bgimg-2 {
+  background-image: url("khans3.jpg");
+  min-height: 100%;
+}
+#personsfooter {
+  padding: 0px;
+}
+
+.caption {
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border1 {
+  font-size: 25px;
+  letter-spacing: 10px;
+  border-radius: 4px;
+}
+
+.fa-brands {
+  text-decoration: none;
+  color: #fde35a;
+}
+
+#myBtn {
+  display: none;
+  width: 100px;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color:  #5959b3;
+  color:  #fde35a;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+#header {
+  color: black;
+  position: relative;
+  top: 0;
+  text-align: center;
+
+  font-weight: bold;
+  width: 100%;
+  transition: 0.2s;
+}
+
+#headerpersons {
+  padding: 0px;
+}
+
+.content-container p{
+  padding:15px;
+  margin: 5px;
+}
+
+.cards {
+  padding:4px;
+  margin: 4px;
+  margin-left: 6px;
+}
+
+input[type=text], select, textarea {
+  width: 95%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #5959b3;
+  border-radius: 4px;
+  color: #fde35a;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #00008B;
+
+}
+
+.contact {
+  padding: 100px;
+  margin: 100px;
+}
+
+#image-container1 {
+    overflow: hidden;
+}
+
+#hoverimage1 {
+    transition: transform 0.3s ease-in-out;
+}
+
+
+#image-container2 {
+    overflow: hidden;
+}
+
+#hoverimage2 {
+    transition: transform 0.3s ease-in-out;
+}
+
+#image-container3 {
+    overflow: hidden;
+}
+
+#hoverimage3 {
+    transition: transform 0.3s ease-in-out;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.overlay p {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+}

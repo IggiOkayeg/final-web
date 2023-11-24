@@ -1,0 +1,124 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  color: #777;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("khans.jpg");
+  min-height: 60%;
+}
+
+.bgimg-2 {
+  background-image: url("kerei.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("khans.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border1 {
+  background-color: #00008B;
+  color: #FFD700;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  border-radius: 4px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+
+.animatedbutton {
+  border-radius: 4px;
+  background-color: #5959b3;
+  border: none;
+  color: #fde35a;
+  text-align: center;
+  font-size: 20px;
+  padding: 14px 28px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  bottom: 8px;
+  right: 24px;
+  margin: 5px;
+}
+
+.animatedbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  width: 100%
+}
+
+.animatedbutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.animatedbutton:hover span {
+  padding-right: 25px;
+}
+
+.animatedbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#firstlink {
+    color: #fde35a;
+    text-decoration: none;
+}
+
+
+.fa-brands {
+  text-decoration: none;
+  color:#00008B;
+}
+
+#mainfooter {
+  margin-top: -80px;
+}
+
+.navbar {
+  background-color: #5959b3;
+}

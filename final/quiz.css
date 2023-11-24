@@ -1,0 +1,133 @@
+
+.navbar {
+  background-color: #5959b3;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.bgimg-1, .bgimg-2 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgimg-1 {
+  background-image: url("khans3.jpg");
+  min-height: 100%;
+}
+.bgimg-2 {
+  background-image: url("khans3.jpg");
+  min-height: 100%;
+}
+#personsfooter {
+  padding: 0px;
+}
+
+.caption {
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border1 {
+  font-size: 25px;
+  letter-spacing: 10px;
+  border-radius: 4px;
+}
+
+.fa-brands {
+  text-decoration: none;
+  color: #fde35a;
+}
+
+#myBtn {
+  display: none;
+  width: 100px;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color:  #5959b3;
+  color:  #fde35a;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+#header {
+  color: black;
+  position: relative;
+  top: 0;
+  text-align: center;
+
+  font-weight: bold;
+  width: 100%;
+  transition: 0.2s;
+}
+
+#headerpersons {
+  padding: 0px;
+}
+
+.content-container p{
+  padding:15px;
+  margin: 5px;
+}
+
+
+
+
+#quiz-container {
+    width: 600px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+#results {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #5959b3;
+    color:  #fde35a;
+    border: 1px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#results:hover {
+  background-color: #00008B;
+}
+
+#demo {
+  margin-top:200px;
+  margin-right: 20px;
+  border-style: solid;
+  border-color: #5959b3;
+}
+
+.carousel-item {
+  height:800px;
+}
+
+#result {
+  font-size:25px;
+  color: #5959b3;
+}

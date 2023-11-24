@@ -1,0 +1,227 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.content-container {
+  padding: 20px;
+}
+
+.col-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column-one {
+  float: left;
+  width: 66.66666%;
+  padding: 25px;
+}
+
+.column-two {
+  float: left;
+  width: 33.33333%;
+  padding: 25px;
+}
+
+.l-font {
+  font-size: 25px;
+  color: #03071e;
+}
+
+.xl-font {
+  font-size: 65px;
+  color: #03071e;
+}
+
+.button {
+  border: 5px solid #03071e;
+  background-color: transparent;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #03071e;
+  font-weight: bold;
+  transition: .2s;
+}
+
+.button:hover {
+  background-color: #03071e;
+  color: white;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column-one,
+  .column-two {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+}
+
+.navbar {
+  background-color: #5959b3;
+}
+
+.bgimg-1, .bgimg-2 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgimg-1 {
+  background-image: url("khans3.jpg");
+  min-height: 100%;
+}
+.bgimg-2 {
+  background-image: url("khans3.jpg");
+  min-height: 100%;
+}
+
+#header {
+  color: black;
+  position: relative;
+  top: 0;
+  text-align: center;
+
+  font-weight: bold;
+  width: 100%;
+  transition: 0.2s;
+}
+
+#headerpersons {
+  padding: 0px;
+}
+
+.content-container p{
+  padding:15px;
+  margin: 5px;
+}
+#demo {
+    border-style: solid;
+    border-color: #5959b3;
+}
+
+.carousel-item {
+  height:600px;
+}
+
+.description li {
+  font-size: 23px;
+}
+
+#personsfooter {
+  padding: 0px;
+}
+
+.caption {
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border1 {
+  font-size: 25px;
+  letter-spacing: 10px;
+  border-radius: 4px;
+}
+
+.fa-brands {
+  text-decoration: none;
+  color: #fde35a;
+}
+
+#myBtn {
+  display: none;
+  width: 100px;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color:  #5959b3;
+  color:  #fde35a;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+.animatedbutton {
+  border-radius: 4px;
+  background-color: #5959b3;
+  border: none;
+  color: #fde35a;
+  text-align: center;
+  font-size: 20px;
+  padding: 14px 28px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: block;
+  margin-left:670px;
+}
+
+.animatedbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  width: 100%
+}
+
+.animatedbutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.animatedbutton:hover span {
+  padding-right: 25px;
+}
+
+.animatedbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#firstlink {
+    color: #fde35a;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+/* For mobile phones: */
+[class*="col-"] {
+width: 100%;
+}
+}
